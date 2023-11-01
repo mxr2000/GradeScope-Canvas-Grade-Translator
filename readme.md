@@ -1,5 +1,5 @@
 # Translate Grades from GradeScope to Canvas
-
+![demo.png](demo.png)
 # Runtime Environment
 
 - JDK 17
