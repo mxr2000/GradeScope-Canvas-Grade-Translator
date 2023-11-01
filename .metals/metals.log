@@ -11654,3 +11654,1485 @@ WARNING: Unmatched cancel notification for request id 33855
 2023.10.26 18:20:44 INFO  compiling root (1 scala source)
 2023.10.26 18:20:44 WARN  there were 5 deprecation warnings; re-run with -deprecation for details
 2023.10.26 18:20:44 INFO  time: compiled root in 0.34s
+2023.10.27 16:37:47 INFO  compiling root (1 scala source)
+2023.10.27 16:37:47 INFO  time: compiled root in 0.72s
+2023.10.27 16:38:02 INFO  compiling root (1 scala source)
+2023.10.27 16:38:02 INFO  time: compiled root in 0.37s
+2023.10.27 16:38:09 INFO  compiling root (1 scala source)
+2023.10.27 16:38:09 INFO  time: compiled root in 0.25s
+Oct 27, 2023 4:38:16 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 34508
+2023.10.27 16:40:51 INFO  compiling root (1 scala source)
+2023.10.27 16:40:54 INFO  time: compiled root in 3.47s
+2023.10.27 16:41:18 INFO  compiling root (1 scala source)
+2023.10.27 16:41:18 INFO  time: compiled root in 0.29s
+2023.10.27 16:41:24 INFO  compiling root (1 scala source)
+2023.10.27 16:41:24 INFO  time: compiled root in 0.26s
+2023.10.27 16:42:26 ERROR scalafmt: /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala:77: error: [dialect scala3] illegal start of simple expression
+          }
+          ^
+2023.10.27 16:42:26 INFO  compiling root (1 scala source)
+2023.10.27 16:42:26 INFO  time: compiled root in 0.23s
+2023.10.27 16:42:47 ERROR scalafmt: /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala:79: error: [dialect scala3] illegal start of simple expression
+          }
+          ^
+2023.10.27 16:42:47 INFO  compiling root (1 scala source)
+2023.10.27 16:42:47 INFO  time: compiled root in 0.22s
+2023.10.27 16:42:56 INFO  compiling root (1 scala source)
+2023.10.27 16:42:56 INFO  time: compiled root in 0.17s
+2023.10.27 16:43:24 WARN  Using indexes to guess the definition of gradeProgress
+Oct 27, 2023 4:43:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35275
+2023.10.27 16:43:32 INFO  compiling root (1 scala source)
+2023.10.27 16:43:32 INFO  time: compiled root in 0.19s
+2023.10.27 16:44:47 INFO  compiling root (1 scala source)
+2023.10.27 16:44:49 INFO  time: compiled root in 1.91s
+Oct 27, 2023 4:44:53 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 35356
+2023.10.27 16:44:54 INFO  compiling root (1 scala source)
+2023.10.27 16:44:54 INFO  time: compiled root in 0.34s
+2023.10.27 16:47:33 INFO  compiling root (1 scala source)
+2023.10.27 16:47:33 INFO  time: compiled root in 0.52s
+2023.10.27 16:47:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:47:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:47:52 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:47:52 INFO  Loaded expression compiler in 6 milliseconds
+2023.10.27 16:47:52 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:47:52 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:47:55 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 16:47:56 INFO  Trying to attach to remote debuggee VM localhost:56217 .
+2023.10.27 16:47:56 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:47:56 ERROR Oct 27, 2023 4:47:57 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:47:56 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:48:02 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:48:02 INFO  Closing debug server tcp://0.0.0.0:56214
+2023.10.27 16:48:20 INFO  compiling root (1 scala source)
+2023.10.27 16:48:20 INFO  time: compiled root in 0.34s
+2023.10.27 16:49:36 INFO  compiling root (1 scala source)
+2023.10.27 16:49:36 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 16:49:36 INFO  time: compiled root in 0.35s
+2023.10.27 16:49:37 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:49:37 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:49:37 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:49:37 INFO  Loaded expression compiler in 0 milliseconds
+2023.10.27 16:49:37 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:49:37 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:49:40 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 16:49:40 INFO  Trying to attach to remote debuggee VM localhost:56794 .
+2023.10.27 16:49:40 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:49:40 ERROR Oct 27, 2023 4:49:41 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:49:40 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:49:46 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:49:46 INFO  Closing debug server tcp://0.0.0.0:56791
+2023.10.27 16:50:23 INFO  compiling root (1 scala source)
+2023.10.27 16:50:25 WARN  there were 2 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:50:25 INFO  time: compiled root in 1.3s
+2023.10.27 16:50:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:50:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:50:27 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:50:27 INFO  Loaded expression compiler in 1 millisecond
+2023.10.27 16:50:27 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:50:27 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:50:30 INFO  Loaded all sources and classes in 3 seconds
+2023.10.27 16:50:32 INFO  Trying to attach to remote debuggee VM localhost:57062 .
+2023.10.27 16:50:32 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:50:32 ERROR Oct 27, 2023 4:50:33 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:50:32 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:50:41 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:50:41 INFO  Closing debug server tcp://0.0.0.0:57059
+2023.10.27 16:51:04 INFO  compiling root (1 scala source)
+2023.10.27 16:51:04 INFO  time: compiled root in 0.5s
+2023.10.27 16:52:11 INFO  compiling root (1 scala source)
+2023.10.27 16:52:11 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:52:11 INFO  time: compiled root in 0.39s
+2023.10.27 16:52:13 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:52:13 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:52:13 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:52:13 INFO  Loaded expression compiler in 0 milliseconds
+2023.10.27 16:52:13 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:52:13 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:52:15 INFO  Loaded all sources and classes in 1 second
+2023.10.27 16:52:15 INFO  Trying to attach to remote debuggee VM localhost:57682 .
+2023.10.27 16:52:15 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:52:16 ERROR Oct 27, 2023 4:52:16 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:52:16 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:52:19 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:52:19 INFO  Closing debug server tcp://0.0.0.0:57675
+2023.10.27 16:52:25 INFO  compiling root (1 scala source)
+2023.10.27 16:52:25 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:52:25 INFO  time: compiled root in 0.36s
+2023.10.27 16:52:29 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:52:29 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:52:29 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:52:29 INFO  Loaded expression compiler in 1 millisecond
+2023.10.27 16:52:29 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:52:29 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:52:31 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 16:52:31 INFO  Trying to attach to remote debuggee VM localhost:57773 .
+2023.10.27 16:52:31 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:52:32 ERROR Oct 27, 2023 4:52:32 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:52:32 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:52:36 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:52:36 INFO  Closing debug server tcp://0.0.0.0:57770
+2023.10.27 16:52:58 INFO  compiling root (1 scala source)
+2023.10.27 16:52:58 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:52:58 INFO  time: compiled root in 0.34s
+2023.10.27 16:53:05 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:53:05 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:53:05 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:53:05 INFO  Loaded expression compiler in 0 milliseconds
+2023.10.27 16:53:05 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:53:05 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:53:07 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 16:53:07 INFO  Trying to attach to remote debuggee VM localhost:57970 .
+2023.10.27 16:53:07 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:53:07 ERROR Oct 27, 2023 4:53:08 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:53:07 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:56:39 WARN  Using indexes to guess the definition of view
+2023.10.27 16:56:39 WARN  Using indexes to guess the definition of view
+2023.10.27 16:56:53 INFO  compiling root (1 scala source)
+2023.10.27 16:56:53 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:56:53 INFO  time: compiled root in 0.34s
+2023.10.27 16:56:57 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:56:57 ERROR Read data from io exception: java.net.SocketException: Connection reset
+2023.10.27 16:56:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:56:57 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:56:57 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:56:57 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:56:57 INFO  Loaded expression compiler in 1 millisecond
+2023.10.27 16:56:57 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:56:57 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:56:59 INFO  Loaded all sources and classes in 1 second
+2023.10.27 16:56:59 INFO  Trying to attach to remote debuggee VM localhost:59251 .
+2023.10.27 16:56:59 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:57:00 ERROR Oct 27, 2023 4:57:00 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:57:00 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:57:17 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:57:17 INFO  Closing debug server tcp://0.0.0.0:59248
+2023.10.27 16:57:40 INFO  compiling root (1 scala source)
+2023.10.27 16:57:40 INFO  time: compiled root in 0.21s
+2023.10.27 16:57:47 INFO  compiling root (1 scala source)
+2023.10.27 16:57:48 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:57:48 INFO  time: compiled root in 1.59s
+2023.10.27 16:57:50 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:57:50 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:57:50 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:57:50 INFO  Loaded expression compiler in 1 millisecond
+2023.10.27 16:57:50 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:57:50 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:57:52 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 16:57:53 INFO  Trying to attach to remote debuggee VM localhost:59539 .
+2023.10.27 16:57:53 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:57:53 ERROR Oct 27, 2023 4:57:53 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:57:53 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:58:39 INFO  compiling root (1 scala source)
+2023.10.27 16:58:39 INFO  time: compiled root in 0.51s
+2023.10.27 16:58:40 INFO  compiling root (1 scala source)
+2023.10.27 16:58:42 WARN  there were 4 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:58:42 INFO  time: compiled root in 1.55s
+2023.10.27 16:58:42 INFO  compiling root (1 scala source)
+2023.10.27 16:58:42 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:58:42 INFO  time: compiled root in 0.27s
+2023.10.27 16:58:45 INFO  compiling root (1 scala source)
+2023.10.27 16:58:45 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:58:45 INFO  time: compiled root in 0.25s
+2023.10.27 16:58:48 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:58:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:58:48 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:58:48 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:58:48 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:58:48 INFO  Loaded expression compiler in 0 milliseconds
+2023.10.27 16:58:48 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:58:48 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:58:51 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 16:58:51 INFO  Trying to attach to remote debuggee VM localhost:59868 .
+2023.10.27 16:58:51 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:58:52 ERROR Oct 27, 2023 4:58:52 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:58:52 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:58:54 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:58:54 INFO  Closing debug server tcp://0.0.0.0:59865
+2023.10.27 16:59:11 ERROR scalafmt: /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala:89: error: [dialect scala3] illegal start of simple expression
+          }
+          ^
+2023.10.27 16:59:11 INFO  compiling root (1 scala source)
+2023.10.27 16:59:12 INFO  time: compiled root in 1.05s
+2023.10.27 16:59:34 INFO  compiling root (1 scala source)
+2023.10.27 16:59:34 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:59:34 INFO  time: compiled root in 0.35s
+2023.10.27 16:59:36 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:59:36 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:59:36 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:59:36 INFO  Loaded expression compiler in 0 milliseconds
+2023.10.27 16:59:36 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:59:36 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:59:38 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 16:59:39 INFO  Trying to attach to remote debuggee VM localhost:60147 .
+2023.10.27 16:59:39 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:59:39 ERROR Oct 27, 2023 4:59:40 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:59:39 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:59:48 INFO  compiling root (1 scala source)
+2023.10.27 16:59:48 WARN  there were 3 deprecation warnings; re-run with -deprecation for details
+2023.10.27 16:59:48 INFO  time: compiled root in 0.43s
+2023.10.27 16:59:52 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:59:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:59:52 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 16:59:52 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 16:59:52 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:59:52 INFO  Loaded expression compiler in 1 millisecond
+2023.10.27 16:59:52 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 16:59:52 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 16:59:55 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 16:59:56 INFO  Trying to attach to remote debuggee VM localhost:60239 .
+2023.10.27 16:59:56 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 16:59:56 ERROR Oct 27, 2023 4:59:57 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 16:59:56 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 16:59:59 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 16:59:59 INFO  Closing debug server tcp://0.0.0.0:60236
+2023.10.27 17:00:09 INFO  compiling root (1 scala source)
+2023.10.27 17:00:09 INFO  time: compiled root in 0.31s
+2023.10.27 17:00:11 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 17:00:11 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 17:00:11 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:00:11 INFO  Loaded expression compiler in 1 millisecond
+2023.10.27 17:00:11 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 17:00:11 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 17:00:13 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 17:00:15 INFO  Trying to attach to remote debuggee VM localhost:60346 .
+2023.10.27 17:00:15 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 17:00:15 ERROR Oct 27, 2023 5:00:16 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 17:00:15 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 17:02:01 INFO  compiling root (1 scala source)
+2023.10.27 17:02:03 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 17:02:03 INFO  time: compiled root in 1.47s
+2023.10.27 17:02:03 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:02:03 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 17:02:04 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 17:02:04 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 17:02:04 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:02:04 INFO  Loaded expression compiler in 0 milliseconds
+2023.10.27 17:02:04 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 17:02:04 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 17:02:06 INFO  Loaded all sources and classes in 2 seconds
+2023.10.27 17:02:09 INFO  Trying to attach to remote debuggee VM localhost:60973 .
+2023.10.27 17:02:09 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 17:02:09 ERROR Oct 27, 2023 5:02:09 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 17:02:09 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 17:02:17 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:02:17 INFO  Closing debug server tcp://0.0.0.0:60966
+2023.10.27 17:02:49 ERROR scalafmt: /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala:84: error: [dialect scala3] ) expected but new found
+              new ProgressBar {
+              ^
+2023.10.27 17:02:49 INFO  compiling root (1 scala source)
+2023.10.27 17:02:51 INFO  time: compiled root in 1.35s
+2023.10.27 17:02:52 INFO  compiling root (1 scala source)
+2023.10.27 17:02:52 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 17:02:52 INFO  time: compiled root in 0.29s
+2023.10.27 17:02:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 17:02:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 17:02:55 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:02:55 INFO  Loaded expression compiler in 1 millisecond
+2023.10.27 17:02:55 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 17:02:55 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 17:02:58 INFO  Loaded all sources and classes in 3 seconds
+2023.10.27 17:03:01 INFO  Trying to attach to remote debuggee VM localhost:61252 .
+2023.10.27 17:03:01 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 17:03:01 ERROR Oct 27, 2023 5:03:01 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 17:03:01 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 17:03:13 INFO  Closing debug server tcp://0.0.0.0:61249
+2023.10.27 17:03:13 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:03:35 INFO  compiling root (1 scala source)
+2023.10.27 17:03:35 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 17:03:35 INFO  time: compiled root in 0.32s
+Oct 27, 2023 5:03:43 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37019
+2023.10.27 17:03:44 INFO  compiling root (1 scala source)
+2023.10.27 17:03:45 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 17:03:45 INFO  time: compiled root in 1.4s
+2023.10.27 17:04:00 INFO  compiling root (1 scala source)
+2023.10.27 17:04:00 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 17:04:00 INFO  time: compiled root in 0.35s
+2023.10.27 17:04:14 INFO  compiling root (1 scala source)
+2023.10.27 17:04:16 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 17:04:16 INFO  time: compiled root in 1.46s
+2023.10.27 17:06:43 INFO  compiling root (1 scala source)
+2023.10.27 17:06:43 INFO  time: compiled root in 0.14s
+2023.10.27 17:06:55 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 17:06:55 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 17:06:55 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:06:55 INFO  Loaded expression compiler in 1 millisecond
+2023.10.27 17:06:55 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 17:06:55 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 17:06:58 INFO  Loaded all sources and classes in 3 seconds
+2023.10.27 17:07:00 INFO  Trying to attach to remote debuggee VM localhost:62500 .
+2023.10.27 17:07:00 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 17:07:00 ERROR Oct 27, 2023 5:07:01 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 17:07:00 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 17:07:25 INFO  compiling root (1 scala source)
+2023.10.27 17:07:26 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 17:07:26 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:07:26 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 45h 23m 16.433s)
+2023.10.27 17:07:26 INFO  compiling root (1 scala source)
+2023.10.27 17:07:26 WARN  there was 1 deprecation warning; re-run with -deprecation for details
+2023.10.27 17:07:26 INFO  time: compiled root in 0.56s
+2023.10.27 17:07:26 INFO  compiling root-test (1 scala source)
+2023.10.27 17:07:26 INFO  time: compiled root-test in 52ms
+2023.10.27 17:07:26 INFO  Deduplicating compilation of root from bsp client 'Metals 1.1.0' (since 45h 23m 17.121s)
+2023.10.27 17:07:26 INFO  compiling root-test (1 scala source)
+2023.10.27 17:07:26 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 17:07:26 INFO  time: compiled root-test in 49ms
+2023.10.27 17:07:27 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 17:07:27 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 17:07:27 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:07:26 INFO  Loaded expression compiler in 2 milliseconds
+2023.10.27 17:07:26 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 17:07:26 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 17:07:36 INFO  Loaded all sources and classes in 8 seconds
+2023.10.27 17:07:57 WARN  Cannot load step filter for Scala 3.3.1: InvocationTargetException null
+2023.10.27 17:07:59 INFO  Trying to attach to remote debuggee VM localhost:62672 .
+2023.10.27 17:07:59 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 17:07:59 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 17:07:59 INFO  Starting debug proxy for [ScalaFXHelloWorld]
+2023.10.27 17:07:59 INFO  Loaded expression compiler in 13 milliseconds
+2023.10.27 17:07:59 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 17:07:59 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, ScalaFXHelloWorld)
+2023.10.27 17:07:59 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 17:07:59 ERROR Oct 27, 2023 5:08:00 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 17:07:59 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 17:08:14 INFO  Loaded all sources and classes in 14 seconds
+2023.10.27 17:25:33 WARN  Cannot load step filter for Scala 3.3.1: InvocationTargetException null
+2023.10.27 17:25:33 INFO  Trying to attach to remote debuggee VM localhost:62847 .
+2023.10.27 17:25:33 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 17:25:33 ERROR Oct 27, 2023 5:25:34 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 17:25:33 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 17:27:10 ERROR Oct 27, 2023 5:27:10 PM com.sun.glass.ui.mac.MacApplication lambda$waitForReactivation$6
+2023.10.27 17:27:10 ERROR WARNING: Timeout while waiting for app reactivation
+2023.10.27 17:27:10 ERROR 2023-10-27 17:27:10.145 java[5340:7285449] CVDisplayLinkCreateWithActiveCGDisplays error: -6661
+2023.10.27 17:27:10 ERROR 2023-10-27 17:27:10.145 java[5340:7285449] CVDisplayLinkSetCurrentCGDisplay error: -6661
+2023.10.27 17:27:10 ERROR 2023-10-27 17:27:10.145 java[5340:7285449] CVDisplayLinkSetOutputCallback error: -6661
+2023.10.27 17:27:10 ERROR 2023-10-27 17:27:10.145 java[5340:7285449] CVDisplayLinkStart error: -6661
+2023.10.27 18:24:28 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 18:24:28 INFO  Closing debug server tcp://0.0.0.0:62669
+2023.10.27 18:24:28 ERROR Read data from io exception: java.net.SocketException: Socket closed
+2023.10.27 18:24:31 INFO  Canceling debug proxy for [ScalaFXHelloWorld]
+2023.10.27 18:24:31 INFO  Closing debug server tcp://0.0.0.0:62844
+2023.10.27 18:24:42 INFO  compiling root (1 scala source)
+2023.10.27 18:24:44 INFO  time: compiled root in 2.26s
+2023.10.27 18:25:17 INFO  compiling root (1 scala source)
+2023.10.27 18:25:19 INFO  time: compiled root in 1.43s
+2023.10.27 18:25:22 INFO  compiling root (1 scala source)
+2023.10.27 18:25:24 INFO  time: compiled root in 1.92s
+2023.10.27 18:25:35 INFO  compiling root (1 scala source)
+2023.10.27 18:25:37 INFO  time: compiled root in 2.06s
+2023.10.27 18:26:06 INFO  compiling root (1 scala source)
+2023.10.27 18:26:06 INFO  time: compiled root in 0.17s
+2023.10.27 18:26:17 INFO  compiling root (1 scala source)
+2023.10.27 18:26:17 INFO  time: compiled root in 69ms
+2023.10.27 18:26:39 INFO  compiling root (1 scala source)
+2023.10.27 18:26:40 INFO  time: compiled root in 1.47s
+2023.10.27 18:26:51 INFO  compiling root (1 scala source)
+2023.10.27 18:26:51 INFO  time: compiled root in 0.17s
+2023.10.27 18:27:33 INFO  compiling root (1 scala source)
+2023.10.27 18:27:35 INFO  time: compiled root in 1.38s
+Oct 27, 2023 6:27:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 37738
+2023.10.27 18:28:09 INFO  compiling root (1 scala source)
+2023.10.27 18:28:11 INFO  time: compiled root in 1.49s
+2023.10.27 18:28:25 INFO  compiling root (1 scala source)
+2023.10.27 18:28:27 INFO  time: compiled root in 1.58s
+2023.10.27 18:28:30 INFO  compiling root (1 scala source)
+2023.10.27 18:28:32 INFO  time: compiled root in 1.78s
+2023.10.27 18:28:42 INFO  compiling root (1 scala source)
+2023.10.27 18:28:43 INFO  time: compiled root in 1.41s
+2023.10.27 18:29:07 INFO  compiling root (1 scala source)
+2023.10.27 18:29:13 INFO  time: compiled root in 5.27s
+2023.10.27 18:29:18 INFO  compiling root (1 scala source)
+2023.10.27 18:29:18 INFO  time: compiled root in 0.12s
+2023.10.27 18:29:34 INFO  compiling root (1 scala source)
+2023.10.27 18:29:34 INFO  time: compiled root in 0.11s
+2023.10.27 18:29:40 INFO  compiling root (1 scala source)
+2023.10.27 18:29:41 INFO  time: compiled root in 1.33s
+2023.10.27 18:29:48 INFO  compiling root (1 scala source)
+2023.10.27 18:29:49 INFO  time: compiled root in 1.42s
+2023.10.27 18:30:24 INFO  compiling root (1 scala source)
+2023.10.27 18:30:25 INFO  time: compiled root in 1.43s
+2023.10.27 18:30:25 INFO  compiling root (1 scala source)
+2023.10.27 18:30:25 INFO  time: compiled root in 0.78s
+2023.10.27 18:30:48 INFO  compiling root (1 scala source)
+2023.10.27 18:30:50 INFO  time: compiled root in 1.93s
+2023.10.27 18:31:17 INFO  compiling root (1 scala source)
+2023.10.27 18:31:19 INFO  time: compiled root in 1.36s
+2023.10.27 18:31:43 INFO  compiling root (1 scala source)
+2023.10.27 18:31:45 INFO  time: compiled root in 1.29s
+2023.10.27 18:31:48 INFO  compiling root (1 scala source)
+2023.10.27 18:31:48 INFO  time: compiled root in 0.78s
+2023.10.27 18:31:54 INFO  compiling root (1 scala source)
+2023.10.27 18:31:55 INFO  time: compiled root in 1s
+2023.10.27 18:32:01 INFO  compiling root (1 scala source)
+2023.10.27 18:32:01 INFO  time: compiled root in 0.12s
+2023.10.27 18:32:12 INFO  compiling root (1 scala source)
+2023.10.27 18:32:12 INFO  time: compiled root in 0.63s
+Oct 27, 2023 6:32:43 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Oct 27, 2023 6:33:05 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.27 18:34:07 INFO  compiling root-test (1 scala source)
+2023.10.27 18:34:07 INFO  time: compiled root-test in 90ms
+Oct 27, 2023 6:34:07 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.NoSuchElementException: SettingsDialogApp
+java.util.concurrent.CompletionException: java.util.NoSuchElementException: SettingsDialogApp
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.NoSuchElementException: SettingsDialogApp
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$34(WorkspaceLspService.scala:838)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.debug.DebugProvider$FindFirstDebugSession.$anonfun$getFirstOrElse$1(DebugProvider.scala:1016)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+Oct 27, 2023 6:34:19 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.27 18:34:22 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-server.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-server.trace.json
+2023.10.27 18:34:22 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/dap-client.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/dap-client.trace.json
+2023.10.27 18:34:22 INFO  Starting debug proxy for [gui.SettingsDialogApp]
+2023.10.27 18:34:22 INFO  Loaded expression compiler in 2 milliseconds
+2023.10.27 18:34:22 INFO  Loaded step filter in 0 milliseconds
+2023.10.27 18:34:22 WARN  Found duplicate entry core_3 in debuggee MainClassDebugAdapter(root, gui.SettingsDialogApp)
+2023.10.27 18:34:35 INFO  Loaded all sources and classes in 12 seconds
+2023.10.27 18:34:48 WARN  Cannot load step filter for Scala 3.3.1: InvocationTargetException null
+2023.10.27 18:34:48 INFO  Trying to attach to remote debuggee VM localhost:50081 .
+2023.10.27 18:34:48 INFO  Attaching to debuggee VM succeeded.
+2023.10.27 18:34:48 ERROR Oct 27, 2023 6:34:49 PM com.sun.javafx.application.PlatformImpl startup
+2023.10.27 18:34:48 ERROR WARNING: Unsupported JavaFX configuration: classes were loaded from 'unnamed module @99e937b'
+2023.10.27 18:34:56 INFO  Closing debug server tcp://0.0.0.0:50078
+2023.10.27 18:34:56 INFO  Canceling debug proxy for [gui.SettingsDialogApp]
+2023.10.27 18:35:10 WARN  Could not find semantic tokens for: file:///Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/test/scala/UtilTest.scala
+2023.10.27 18:37:22 INFO  Shutting down server
+2023.10.27 18:37:22 INFO  shutting down Metals
+2023.10.27 18:37:22 INFO  Shut down connection with build server.
+Oct 27, 2023 6:37:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.10.27 18:37:22 INFO  Failed to run request with params WorkspaceBuildTargetsResult
+Oct 27, 2023 6:37:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 45 more
+
+2023.10.27 18:37:22 INFO  Cancelling compilation on Bloop server
+Oct 27, 2023 6:37:22 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 45 more
+
+2023.10.27 18:37:22 INFO  Cancelling compilation on Bloop server
+2023.10.27 18:37:22 INFO  Cancelling compilation on Bloop server
+2023.10.27 18:37:22 INFO  Cancelling compilation on Bloop server
+2023.10.27 18:37:22 INFO  Cancelling compilation on Bloop server
+2023.10.27 18:37:22 INFO  Failed to run request with params DebugSessionAddress
+2023.10.27 18:37:22 ERROR failed: Starting debug server
+java.util.concurrent.CancellationException
+	at java.util.concurrent.CompletableFuture.cancel(CompletableFuture.java:2478)
+	at scala.meta.internal.metals.CancelTokens$$anon$1.cancel(CancelTokens.scala:35)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$startDebugSession$3(BuildServerConnection.scala:199)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$startDebugSession$3$adapted(BuildServerConnection.scala:199)
+	at scala.util.Success.foreach(Try.scala:260)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:481)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2023.10.27 18:37:22 INFO  Exiting server
+2023.10.27 18:37:31 INFO  Started: Metals version 1.1.0 in folders '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator' for client Visual Studio Code 1.76.2.
+2023.10.27 18:37:32 INFO  Attempting to connect to the build server...
+2023.10.27 18:37:32 INFO  skipping build import with status 'Installed'
+2023.10.27 18:37:32 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+Oct 27, 2023 6:37:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Oct 27, 2023 6:37:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 27, 2023 6:37:32 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.NoSuchElementException: gui.SettingsDialogApp
+java.util.concurrent.CompletionException: java.util.NoSuchElementException: gui.SettingsDialogApp
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.NoSuchElementException: gui.SettingsDialogApp
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$34(WorkspaceLspService.scala:838)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.debug.DebugProvider$FindFirstDebugSession.$anonfun$getFirstOrElse$1(DebugProvider.scala:1016)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.10.27 18:37:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.27 18:37:32 INFO  Attempting to connect to the build server...
+2023.10.27 18:37:32 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.27 18:37:32 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.27 18:37:32 INFO  time: Connected to build server in 0.42s
+2023.10.27 18:37:32 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.27 18:37:34 INFO  no build target found for /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/gui/SettingsDialog.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.27 18:37:37 INFO  time: Imported build in 2.76s
+2023.10.27 18:37:39 INFO  time: indexed workspace in 2s
+2023.10.27 18:39:41 INFO  Shutting down server
+2023.10.27 18:39:41 INFO  shutting down Metals
+2023.10.27 18:39:42 INFO  Shut down connection with build server.
+2023.10.27 18:39:42 INFO  Shut down connection with build server.
+Oct 27, 2023 6:39:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.27 18:39:42 INFO  Cancelling compilation on Bloop server
+2023.10.27 18:39:41 INFO  Exiting server
+2023.10.29 23:29:49 INFO  Started: Metals version 1.1.0 in folders '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator' for client Visual Studio Code 1.76.2.
+2023.10.29 23:29:49 INFO  Attempting to connect to the build server...
+2023.10.29 23:29:49 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.29 23:29:49 INFO  skipping build import with status 'Installed'
+2023.10.29 23:29:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.29 23:29:50 INFO  Attempting to connect to the build server...
+2023.10.29 23:29:50 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.29 23:29:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.29 23:29:50 INFO  time: Connected to build server in 0.48s
+2023.10.29 23:29:50 INFO  Connected to Build server: Bloop v1.5.11
+Oct 29, 2023 11:29:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.10.29 23:29:53 INFO  time: indexed workspace in 2.7s
+2023.10.29 23:30:30 INFO  Shutting down server
+2023.10.29 23:30:30 INFO  shutting down Metals
+2023.10.29 23:30:30 INFO  Shut down connection with build server.
+2023.10.29 23:30:30 INFO  Shut down connection with build server.
+Oct 29, 2023 11:30:30 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.29 23:30:30 INFO  Cancelling compilation on Bloop server
+2023.10.29 23:30:30 INFO  Exiting server
+2023.10.30 15:16:59 INFO  Started: Metals version 1.1.0 in folders '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator' for client Visual Studio Code 1.76.2.
+2023.10.30 15:17:00 INFO  Attempting to connect to the build server...
+2023.10.30 15:17:00 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:17:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:17:00 INFO  Attempting to connect to the build server...
+2023.10.30 15:17:00 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:17:00 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:17:00 INFO  time: Connected to build server in 0.48s
+2023.10.30 15:17:00 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 15:17:02 INFO  no build target found for /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala. Using presentation compiler with project's scala-library version: 3.3.1
+Oct 30, 2023 3:17:02 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2023.10.30 15:17:03 INFO  running '/Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /var/folders/s_/cbf5z2097m9cr1c2rrs_vw1h0000gn/T/metals11909099220668682488/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2023.10.30 15:17:03 INFO  no build target found for /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.30 15:17:03 INFO  [info] welcome to sbt 1.9.6 (Amazon.com Inc. Java 17.0.6)
+2023.10.30 15:17:03 INFO  [info] loading global plugins from /Users/mxr/.sbt/1.0/plugins
+2023.10.30 15:17:04 INFO  time: indexed workspace in 2.05s
+2023.10.30 15:17:05 INFO  [info] loading settings for project gradetranslator-build-build from metals.sbt ...
+2023.10.30 15:17:05 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/project
+2023.10.30 15:17:05 INFO  [info] loading settings for project gradetranslator-build from metals.sbt ...
+2023.10.30 15:17:05 INFO  [info] loading project definition from /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project
+2023.10.30 15:17:06 INFO  [success] Generated .bloop/gradetranslator-build.json
+2023.10.30 15:17:06 INFO  [success] Total time: 1 s, completed Oct 30, 2023, 3:17:06 PM
+2023.10.30 15:17:06 INFO  [info] loading settings for project root from build.sbt ...
+2023.10.30 15:17:06 INFO  [info] set current project to GradeTranslator (in build file:/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/)
+2023.10.30 15:17:06 INFO  [success] Generated .bloop/root-test.json
+2023.10.30 15:17:06 INFO  [success] Generated .bloop/root.json
+2023.10.30 15:17:06 INFO  [success] Total time: 0 s, completed Oct 30, 2023, 3:17:07 PM
+2023.10.30 15:17:07 INFO  time: ran 'sbt bloopInstall' in 4.07s
+2023.10.30 15:17:07 INFO  Disconnecting from Bloop session...
+2023.10.30 15:17:07 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:17:07 INFO  Shut down connection with build server.
+2023.10.30 15:17:09 ERROR timeout: build server 'bloop' during shutdown
+2023.10.30 15:17:09 INFO  Attempting to connect to the build server...
+2023.10.30 15:17:09 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:17:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:17:09 INFO  Attempting to connect to the build server...
+2023.10.30 15:17:09 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:17:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:17:09 INFO  time: Connected to build server in 0.17s
+2023.10.30 15:17:09 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 15:17:10 INFO  time: indexed workspace in 1.06s
+2023.10.30 15:18:03 INFO  Shutting down server
+2023.10.30 15:18:03 INFO  shutting down Metals
+2023.10.30 15:18:03 INFO  Shut down connection with build server.
+2023.10.30 15:18:03 INFO  Shut down connection with build server.
+Oct 30, 2023 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.30 15:18:03 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:18:03 INFO  Cancelling compilation on Bloop server
+Oct 30, 2023 3:18:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 45 more
+
+2023.10.30 15:18:03 INFO  Failed to run request with params ScalaMainClassesResult
+2023.10.30 15:18:03 INFO  Exiting server
+2023.10.30 15:18:11 INFO  Started: Metals version 1.1.0 in folders '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator' for client Visual Studio Code 1.76.2.
+Oct 30, 2023 3:18:11 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.NoSuchElementException: ScalaFXHelloWorld
+java.util.concurrent.CompletionException: java.util.NoSuchElementException: ScalaFXHelloWorld
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.NoSuchElementException: ScalaFXHelloWorld
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$34(WorkspaceLspService.scala:838)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.debug.DebugProvider$FindFirstDebugSession.$anonfun$getFirstOrElse$1(DebugProvider.scala:1016)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.10.30 15:18:12 INFO  Attempting to connect to the build server...
+2023.10.30 15:18:12 INFO  skipping build import with status 'Installed'
+2023.10.30 15:18:12 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:18:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:18:12 INFO  Attempting to connect to the build server...
+2023.10.30 15:18:12 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:18:12 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:18:12 INFO  time: Connected to build server in 0.39s
+2023.10.30 15:18:12 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 15:18:14 INFO  no build target found for /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.30 15:18:16 INFO  time: indexed workspace in 1.58s
+Oct 30, 2023 3:18:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2023.10.30 15:19:28 INFO  Shutting down server
+2023.10.30 15:19:28 INFO  shutting down Metals
+2023.10.30 15:19:28 INFO  Shut down connection with build server.
+2023.10.30 15:19:28 INFO  Shut down connection with build server.
+Oct 30, 2023 3:19:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+Oct 30, 2023 3:19:28 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+2023.10.30 15:19:28 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:19:28 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:19:28 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:19:28 INFO  Exiting server
+2023.10.30 15:19:36 INFO  Started: Metals version 1.1.0 in folders '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator' for client Visual Studio Code 1.76.2.
+Oct 30, 2023 3:19:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint fallbackResponseError
+SEVERE: Internal error: java.util.NoSuchElementException: Gui
+java.util.concurrent.CompletionException: java.util.NoSuchElementException: Gui
+	at java.base/java.util.concurrent.CompletableFuture.encodeThrowable(CompletableFuture.java:332)
+	at java.base/java.util.concurrent.CompletableFuture.completeThrowable(CompletableFuture.java:347)
+	at java.base/java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:708)
+	at java.base/java.util.concurrent.CompletableFuture.postComplete(CompletableFuture.java:510)
+	at java.base/java.util.concurrent.CompletableFuture.completeExceptionally(CompletableFuture.java:2162)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:29)
+	at scala.concurrent.java8.FuturesConvertersImpl$CF.apply(FutureConvertersImpl.scala:26)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at scala.concurrent.ExecutionContext$parasitic$.execute(ExecutionContext.scala:222)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.linkRootOf(Promise.scala:347)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:471)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.util.NoSuchElementException: Gui
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$executeCommand$34(WorkspaceLspService.scala:838)
+	at scala.Option.getOrElse(Option.scala:201)
+	at scala.meta.internal.metals.debug.DebugProvider$FindFirstDebugSession.$anonfun$getFirstOrElse$1(DebugProvider.scala:1016)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	... 3 more
+
+2023.10.30 15:19:37 INFO  Attempting to connect to the build server...
+2023.10.30 15:19:37 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:19:37 INFO  skipping build import with status 'Installed'
+2023.10.30 15:19:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:19:37 INFO  Attempting to connect to the build server...
+2023.10.30 15:19:37 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:19:37 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:19:37 INFO  time: Connected to build server in 0.35s
+2023.10.30 15:19:37 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 15:19:39 INFO  time: indexed workspace in 2.18s
+2023.10.30 15:19:59 INFO  Shutting down server
+2023.10.30 15:19:59 INFO  shutting down Metals
+2023.10.30 15:19:59 INFO  Shut down connection with build server.
+2023.10.30 15:19:59 INFO  Shut down connection with build server.
+Oct 30, 2023 3:19:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+Oct 30, 2023 3:19:59 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.30 15:19:59 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:19:59 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:19:59 INFO  Exiting server
+2023.10.30 15:20:07 INFO  Started: Metals version 1.1.0 in folders '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator' for client Visual Studio Code 1.76.2.
+2023.10.30 15:20:08 INFO  Attempting to connect to the build server...
+2023.10.30 15:20:08 INFO  skipping build import with status 'Installed'
+2023.10.30 15:20:08 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:20:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:20:08 INFO  Attempting to connect to the build server...
+2023.10.30 15:20:08 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:20:08 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:20:08 INFO  time: Connected to build server in 0.28s
+2023.10.30 15:20:08 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 15:20:10 INFO  no build target found for /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala. Using presentation compiler with project's scala-library version: 3.3.1
+2023.10.30 15:20:11 INFO  time: indexed workspace in 1.5s
+Oct 30, 2023 3:20:36 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17
+2023.10.30 15:20:37 WARN  Using indexes to guess the definition of Either
+2023.10.30 15:20:37 WARN  Using indexes to guess the definition of Either
+Oct 30, 2023 3:20:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/.reports/metals-full/2023-10-30/r_compiler-error_(gradetranslator-build)_15-20-39-450.md
+2023.10.30 15:20:44 WARN  Using indexes to guess the definition of Long
+2023.10.30 15:20:44 WARN  Using indexes to guess the definition of Long
+2023.10.30 15:21:17 INFO  Shutting down server
+2023.10.30 15:21:17 INFO  shutting down Metals
+2023.10.30 15:21:17 INFO  Shut down connection with build server.
+2023.10.30 15:21:17 INFO  Shut down connection with build server.
+Oct 30, 2023 3:21:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 19 more
+
+Oct 30, 2023 3:21:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.30 15:21:17 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:21:17 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:21:17 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:21:17 INFO  Exiting server
+2023.10.30 15:21:25 INFO  Started: Metals version 1.1.0 in folders '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator' for client Visual Studio Code 1.76.2.
+2023.10.30 15:21:25 INFO  Attempting to connect to the build server...
+2023.10.30 15:21:25 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:21:25 INFO  skipping build import with status 'Installed'
+2023.10.30 15:21:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:21:26 INFO  Attempting to connect to the build server...
+2023.10.30 15:21:26 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:21:26 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:21:26 INFO  time: Connected to build server in 0.49s
+2023.10.30 15:21:26 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 15:21:28 INFO  time: indexed workspace in 2.25s
+2023.10.30 15:25:28 ERROR Failed to tokenize input for semantic tokens for /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/src/main/scala/Gui.scala
+scala.meta.tokenizers.TokenizeException: <input>:341: error: unclosed comment
+            /* Applicative[Either].map3(either1, either2, either3) { (a, b, c) =>
+            ^
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:27)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:26)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter.incompleteInputError$(Reporter.scala:29)
+	at scala.meta.internal.tokenizers.Reporter$$anon$1.incompleteInputError(Reporter.scala:33)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipNestedComments(LegacyScanner.scala:52)
+	at scala.meta.internal.tokenizers.LegacyScanner.skipToCommentEnd(LegacyScanner.scala:71)
+	at scala.meta.internal.tokenizers.LegacyScanner.fetchToken(LegacyScanner.scala:313)
+	at scala.meta.internal.tokenizers.LegacyScanner.nextToken(LegacyScanner.scala:211)
+	at scala.meta.internal.tokenizers.LegacyScanner.foreach(LegacyScanner.scala:1011)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.uncachedTokenize(ScalametaTokenizer.scala:24)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.$anonfun$tokenize$1(ScalametaTokenizer.scala:17)
+	at scala.collection.concurrent.TrieMap.getOrElseUpdate(TrieMap.scala:962)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer.tokenize(ScalametaTokenizer.scala:17)
+	at scala.meta.internal.tokenizers.ScalametaTokenizer$$anon$2.apply(ScalametaTokenizer.scala:332)
+	at scala.meta.tokenizers.Api$XtensionTokenizeDialectInput.tokenize(Api.scala:25)
+	at scala.meta.tokenizers.Api$XtensionTokenizeInputLike.tokenize(Api.scala:14)
+	at scala.meta.internal.metals.SemanticTokensProvider$.getTokens(SemanticTokensProvider.scala:28)
+	at scala.meta.internal.metals.SemanticTokensProvider$.provide(SemanticTokensProvider.scala:89)
+	at scala.meta.internal.metals.Compilers.$anonfun$semanticTokens$3(Compilers.scala:539)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Oct 30, 2023 3:25:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 226
+2023.10.30 15:26:34 INFO  Disconnecting from Bloop session...
+2023.10.30 15:26:34 INFO  Shut down connection with build server.
+2023.10.30 15:26:34 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:26:36 ERROR timeout: build server 'bloop' during shutdown
+2023.10.30 15:26:36 INFO  Attempting to connect to the build server...
+2023.10.30 15:26:36 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:26:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:26:36 INFO  Attempting to connect to the build server...
+2023.10.30 15:26:36 INFO  Bloop uses /Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home defined at /Users/mxr/.bloop/bloop.json
+2023.10.30 15:26:36 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.metals/bsp.trace.json or /Users/mxr/Library/Caches/org.scalameta.metals/bsp.trace.json
+2023.10.30 15:26:36 INFO  time: Connected to build server in 91ms
+2023.10.30 15:26:36 INFO  Connected to Build server: Bloop v1.5.11
+2023.10.30 15:26:37 INFO  time: indexed workspace in 0.97s
+2023.10.30 15:27:50 INFO  Shutting down server
+2023.10.30 15:27:50 INFO  shutting down Metals
+2023.10.30 15:27:51 INFO  Shut down connection with build server.
+2023.10.30 15:27:51 INFO  Shut down connection with build server.
+Oct 30, 2023 3:27:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1(BuildServerConnection.scala:139)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$shutdown$1$adapted(BuildServerConnection.scala:131)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 20 more
+
+2023.10.30 15:27:51 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:27:51 INFO  Cancelling compilation on Bloop server
+Oct 30, 2023 3:27:51 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint notify
+INFO: Failed to send notification message.
+org.eclipse.lsp4j.jsonrpc.JsonRpcException: java.nio.channels.AsynchronousCloseException
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:72)
+	at scala.meta.internal.metals.RequestMonitorImpl$$anon$1.consume(ServerLivenessMonitor.scala:41)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.notify(RemoteEndpoint.java:126)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.sendCancelNotification(RemoteEndpoint.java:180)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint$1.cancel(RemoteEndpoint.java:150)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$2(BuildServerConnection.scala:361)
+	at scala.runtime.java8.JFunction0$mcZ$sp.apply(JFunction0$mcZ$sp.scala:17)
+	at scala.util.Try$.apply(Try.scala:210)
+	at scala.meta.internal.metals.BuildServerConnection.$anonfun$register$1(BuildServerConnection.scala:361)
+	at scala.meta.internal.metals.Cancelable$$anon$1.cancel(Cancelable.scala:18)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.BuildServerConnection.cancel(BuildServerConnection.scala:301)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1(BspSession.scala:34)
+	at scala.meta.internal.bsp.BspSession.$anonfun$cancel$1$adapted(BspSession.scala:34)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.bsp.BspSession.cancel(BspSession.scala:34)
+	at scala.meta.internal.metals.Cancelable$.$anonfun$cancelAll$1(Cancelable.scala:29)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.Cancelable$.cancelAll(Cancelable.scala:28)
+	at scala.meta.internal.metals.MutableCancelable.cancel(MutableCancelable.scala:25)
+	at scala.meta.internal.metals.MetalsLspService.cancel(MetalsLspService.scala:157)
+	at scala.meta.internal.metals.MetalsLspService.onShutdown(MetalsLspService.scala:927)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2(WorkspaceLspService.scala:1170)
+	at scala.meta.internal.metals.WorkspaceLspService.$anonfun$shutdown$2$adapted(WorkspaceLspService.scala:1170)
+	at scala.collection.immutable.List.foreach(List.scala:333)
+	at scala.meta.internal.metals.WorkspaceLspService.shutdown(WorkspaceLspService.scala:1170)
+	at scala.meta.metals.MetalsLanguageServer.shutdown(MetalsLanguageServer.scala:260)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.lambda$null$0(GenericEndpoint.java:65)
+	at org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint.request(GenericEndpoint.java:120)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.handleRequest(RemoteEndpoint.java:261)
+	at org.eclipse.lsp4j.jsonrpc.RemoteEndpoint.consume(RemoteEndpoint.java:190)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.handleMessage(StreamMessageProducer.java:194)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageProducer.listen(StreamMessageProducer.java:94)
+	at org.eclipse.lsp4j.jsonrpc.json.ConcurrentMessageProcessor.run(ConcurrentMessageProcessor.java:113)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:539)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.nio.channels.AsynchronousCloseException
+	at java.base/java.nio.channels.spi.AbstractInterruptibleChannel.end(AbstractInterruptibleChannel.java:202)
+	at java.base/sun.nio.ch.SinkChannelImpl.endWrite(SinkChannelImpl.java:263)
+	at java.base/sun.nio.ch.SinkChannelImpl.write(SinkChannelImpl.java:285)
+	at java.base/java.nio.channels.Channels.writeFullyImpl(Channels.java:74)
+	at java.base/java.nio.channels.Channels.writeFully(Channels.java:93)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:171)
+	at java.base/java.io.OutputStream.write(OutputStream.java:127)
+	at java.base/java.nio.channels.Channels$1.write(Channels.java:151)
+	at scala.meta.internal.metals.ClosableOutputStream.write(ClosableOutputStream.scala:26)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:137)
+	at java.base/java.io.FilterOutputStream.write(FilterOutputStream.java:108)
+	at org.eclipse.lsp4j.jsonrpc.json.StreamMessageConsumer.consume(StreamMessageConsumer.java:67)
+	... 45 more
+
+2023.10.30 15:27:51 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:27:51 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:27:51 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:27:51 INFO  Cancelling compilation on Bloop server
+2023.10.30 15:27:51 INFO  Failed to run request with params ScalaTestClassesResult
+2023.10.30 15:27:51 INFO  Bloop should support `buildTarget/jvmRunEnvironment`, but it fails.
+2023.10.30 15:27:51 INFO  Failed to run request with params ScalaMainClassesResult
+2023.10.30 15:27:50 INFO  Exiting server

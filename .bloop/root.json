@@ -20,6 +20,7 @@
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_3/1.0.4/scala-parallel-collections_3-1.0.4.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.2/cats-effect_3-3.5.2.jar",
+            "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.9.0/cats-core_3-2.9.0.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_3/0.14.6/circe-generic_3-0.14.6.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_3/1.3.10/scala-csv_3-1.3.10.jar",
@@ -32,6 +33,7 @@
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/async-http-client-backend_3/3.9.0/async-http-client-backend_3-3.9.0.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.2/cats-effect-kernel_3-3.5.2.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.2/cats-effect-std_3-3.5.2.jar",
+            "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.9.0/cats-kernel_3-2.9.0.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/20/javafx-base-20.jar",
@@ -42,7 +44,6 @@
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/20/javafx-swing-20.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/20/javafx-web-20.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar",
-            "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.9.0/cats-core_3-2.9.0.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.4.0/jawn-parser_3-1.4.0.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/20/javafx-base-20-mac-aarch64.jar",
@@ -61,7 +62,6 @@
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar",
-            "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.9.0/cats-kernel_3-2.9.0.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.60.Final/netty-common-4.1.60.Final.jar",
             "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.60.Final/netty-transport-4.1.60.Final.jar",
@@ -235,6 +235,11 @@
                             "name": "scala3-library_3",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1-sources.jar"
+                        },
+                        {
+                            "name": "scala3-library_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala3-library_3/3.3.1/scala3-library_3-3.3.1-javadoc.jar"
                         }
                     ]
                 },
@@ -252,6 +257,11 @@
                             "name": "core_3",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_3/3.9.0/core_3-3.9.0-sources.jar"
+                        },
+                        {
+                            "name": "core_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/core_3/3.9.0/core_3-3.9.0-javadoc.jar"
                         }
                     ]
                 },
@@ -269,6 +279,11 @@
                             "name": "async-http-client-backend-future_3",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/async-http-client-backend-future_3/3.9.0/async-http-client-backend-future_3-3.9.0-sources.jar"
+                        },
+                        {
+                            "name": "async-http-client-backend-future_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/async-http-client-backend-future_3/3.9.0/async-http-client-backend-future_3-3.9.0-javadoc.jar"
                         }
                     ]
                 },
@@ -286,6 +301,11 @@
                             "name": "jsoup",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3-sources.jar"
+                        },
+                        {
+                            "name": "jsoup",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/jsoup/jsoup/1.14.3/jsoup-1.14.3-javadoc.jar"
                         }
                     ]
                 },
@@ -303,6 +323,11 @@
                             "name": "scala-parallel-collections_3",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_3/1.0.4/scala-parallel-collections_3-1.0.4-sources.jar"
+                        },
+                        {
+                            "name": "scala-parallel-collections_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-parallel-collections_3/1.0.4/scala-parallel-collections_3-1.0.4-javadoc.jar"
                         }
                     ]
                 },
@@ -320,380 +345,11 @@
                             "name": "cats-effect_3",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.2/cats-effect_3-3.5.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "io.circe",
-                    "name": "circe-parser_3",
-                    "version": "0.14.6",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "circe-parser_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6.jar"
                         },
                         {
-                            "name": "circe-parser_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "io.circe",
-                    "name": "circe-generic_3",
-                    "version": "0.14.6",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "circe-generic_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_3/0.14.6/circe-generic_3-0.14.6.jar"
-                        },
-                        {
-                            "name": "circe-generic_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_3/0.14.6/circe-generic_3-0.14.6-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.github.tototoshi",
-                    "name": "scala-csv_3",
-                    "version": "1.3.10",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-csv_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_3/1.3.10/scala-csv_3-1.3.10.jar"
-                        },
-                        {
-                            "name": "scala-csv_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_3/1.3.10/scala-csv_3-1.3.10-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scalafx",
-                    "name": "scalafx_3",
-                    "version": "20.0.0-R31",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scalafx_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/20.0.0-R31/scalafx_3-20.0.0-R31.jar"
-                        },
-                        {
-                            "name": "scalafx_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/20.0.0-R31/scalafx_3-20.0.0-R31-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scalafx",
-                    "name": "scalafx-extras_3",
-                    "version": "0.8.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scalafx-extras_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx-extras_3/0.8.0/scalafx-extras_3-0.8.0.jar"
-                        },
-                        {
-                            "name": "scalafx-extras_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx-extras_3/0.8.0/scalafx-extras_3-0.8.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-lang",
-                    "name": "scala-library",
-                    "version": "2.13.10",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "scala-library",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
-                        },
-                        {
-                            "name": "scala-library",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.softwaremill.sttp.model",
-                    "name": "core_3",
-                    "version": "1.6.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "core_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_3/1.6.0/core_3-1.6.0.jar"
-                        },
-                        {
-                            "name": "core_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_3/1.6.0/core_3-1.6.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.softwaremill.sttp.shared",
-                    "name": "core_3",
-                    "version": "1.3.16",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "core_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_3/1.3.16/core_3-1.3.16.jar"
-                        },
-                        {
-                            "name": "core_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_3/1.3.16/core_3-1.3.16-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.softwaremill.sttp.shared",
-                    "name": "ws_3",
-                    "version": "1.3.16",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "ws_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_3/1.3.16/ws_3-1.3.16.jar"
-                        },
-                        {
-                            "name": "ws_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_3/1.3.16/ws_3-1.3.16-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.softwaremill.sttp.client3",
-                    "name": "async-http-client-backend_3",
-                    "version": "3.9.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "async-http-client-backend_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/async-http-client-backend_3/3.9.0/async-http-client-backend_3-3.9.0.jar"
-                        },
-                        {
-                            "name": "async-http-client-backend_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/async-http-client-backend_3/3.9.0/async-http-client-backend_3-3.9.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.typelevel",
-                    "name": "cats-effect-kernel_3",
-                    "version": "3.5.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "cats-effect-kernel_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.2/cats-effect-kernel_3-3.5.2.jar"
-                        },
-                        {
-                            "name": "cats-effect-kernel_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.2/cats-effect-kernel_3-3.5.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.typelevel",
-                    "name": "cats-effect-std_3",
-                    "version": "3.5.2",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "cats-effect-std_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.2/cats-effect-std_3-3.5.2.jar"
-                        },
-                        {
-                            "name": "cats-effect-std_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.2/cats-effect-std_3-3.5.2-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "io.circe",
-                    "name": "circe-jawn_3",
-                    "version": "0.14.6",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "circe-jawn_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6.jar"
-                        },
-                        {
-                            "name": "circe-jawn_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "io.circe",
-                    "name": "circe-core_3",
-                    "version": "0.14.6",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "circe-core_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6.jar"
-                        },
-                        {
-                            "name": "circe-core_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.openjfx",
-                    "name": "javafx-base",
-                    "version": "20",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "javafx-base",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/20/javafx-base-20.jar"
-                        },
-                        {
-                            "name": "javafx-base",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/20/javafx-base-20-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.openjfx",
-                    "name": "javafx-controls",
-                    "version": "20",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "javafx-controls",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/20/javafx-controls-20.jar"
-                        },
-                        {
-                            "name": "javafx-controls",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/20/javafx-controls-20-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.openjfx",
-                    "name": "javafx-fxml",
-                    "version": "20",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "javafx-fxml",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/20/javafx-fxml-20.jar"
-                        },
-                        {
-                            "name": "javafx-fxml",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/20/javafx-fxml-20-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.openjfx",
-                    "name": "javafx-graphics",
-                    "version": "20",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "javafx-graphics",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/20/javafx-graphics-20.jar"
-                        },
-                        {
-                            "name": "javafx-graphics",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/20/javafx-graphics-20-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.openjfx",
-                    "name": "javafx-media",
-                    "version": "20",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "javafx-media",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/20/javafx-media-20.jar"
-                        },
-                        {
-                            "name": "javafx-media",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/20/javafx-media-20-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.openjfx",
-                    "name": "javafx-swing",
-                    "version": "20",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "javafx-swing",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/20/javafx-swing-20.jar"
-                        },
-                        {
-                            "name": "javafx-swing",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/20/javafx-swing-20-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.openjfx",
-                    "name": "javafx-web",
-                    "version": "20",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "javafx-web",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/20/javafx-web-20.jar"
-                        },
-                        {
-                            "name": "javafx-web",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/20/javafx-web-20-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.asynchttpclient",
-                    "name": "async-http-client",
-                    "version": "2.12.3",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "async-http-client",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar"
-                        },
-                        {
-                            "name": "async-http-client",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3-sources.jar"
+                            "name": "cats-effect_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect_3/3.5.2/cats-effect_3-3.5.2-javadoc.jar"
                         }
                     ]
                 },
@@ -711,193 +367,275 @@
                             "name": "cats-core_3",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.9.0/cats-core_3-2.9.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.typelevel",
-                    "name": "jawn-parser_3",
-                    "version": "1.4.0",
-                    "configurations": "default",
-                    "artifacts": [
-                        {
-                            "name": "jawn-parser_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.4.0/jawn-parser_3-1.4.0.jar"
                         },
                         {
-                            "name": "jawn-parser_3",
-                            "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.4.0/jawn-parser_3-1.4.0-sources.jar"
+                            "name": "cats-core_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_3/2.9.0/cats-core_3-2.9.0-javadoc.jar"
                         }
                     ]
                 },
                 {
                     "organization": "io.circe",
-                    "name": "circe-numbers_3",
+                    "name": "circe-parser_3",
                     "version": "0.14.6",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "circe-numbers_3",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6.jar"
+                            "name": "circe-parser_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6.jar"
                         },
                         {
-                            "name": "circe-numbers_3",
+                            "name": "circe-parser_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-parser_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-parser_3/0.14.6/circe-parser_3-0.14.6-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.asynchttpclient",
-                    "name": "async-http-client-netty-utils",
-                    "version": "2.12.3",
+                    "organization": "io.circe",
+                    "name": "circe-generic_3",
+                    "version": "0.14.6",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "async-http-client-netty-utils",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar"
+                            "name": "circe-generic_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_3/0.14.6/circe-generic_3-0.14.6.jar"
                         },
                         {
-                            "name": "async-http-client-netty-utils",
+                            "name": "circe-generic_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_3/0.14.6/circe-generic_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-generic_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-generic_3/0.14.6/circe-generic_3-0.14.6-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "io.netty",
-                    "name": "netty-codec-http",
-                    "version": "4.1.60.Final",
+                    "organization": "com.github.tototoshi",
+                    "name": "scala-csv_3",
+                    "version": "1.3.10",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "netty-codec-http",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final.jar"
+                            "name": "scala-csv_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_3/1.3.10/scala-csv_3-1.3.10.jar"
                         },
                         {
-                            "name": "netty-codec-http",
+                            "name": "scala-csv_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_3/1.3.10/scala-csv_3-1.3.10-sources.jar"
+                        },
+                        {
+                            "name": "scala-csv_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/tototoshi/scala-csv_3/1.3.10/scala-csv_3-1.3.10-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "io.netty",
-                    "name": "netty-handler",
-                    "version": "4.1.60.Final",
+                    "organization": "org.scalafx",
+                    "name": "scalafx_3",
+                    "version": "20.0.0-R31",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "netty-handler",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final.jar"
+                            "name": "scalafx_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/20.0.0-R31/scalafx_3-20.0.0-R31.jar"
                         },
                         {
-                            "name": "netty-handler",
+                            "name": "scalafx_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/20.0.0-R31/scalafx_3-20.0.0-R31-sources.jar"
+                        },
+                        {
+                            "name": "scalafx_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx_3/20.0.0-R31/scalafx_3-20.0.0-R31-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "io.netty",
-                    "name": "netty-codec-socks",
-                    "version": "4.1.60.Final",
+                    "organization": "org.scalafx",
+                    "name": "scalafx-extras_3",
+                    "version": "0.8.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "netty-codec-socks",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar"
+                            "name": "scalafx-extras_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx-extras_3/0.8.0/scalafx-extras_3-0.8.0.jar"
                         },
                         {
-                            "name": "netty-codec-socks",
+                            "name": "scalafx-extras_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx-extras_3/0.8.0/scalafx-extras_3-0.8.0-sources.jar"
+                        },
+                        {
+                            "name": "scalafx-extras_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scalafx/scalafx-extras_3/0.8.0/scalafx-extras_3-0.8.0-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "io.netty",
-                    "name": "netty-handler-proxy",
-                    "version": "4.1.60.Final",
+                    "organization": "org.scala-lang",
+                    "name": "scala-library",
+                    "version": "2.13.10",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "netty-handler-proxy",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar"
+                            "name": "scala-library",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10.jar"
                         },
                         {
-                            "name": "netty-handler-proxy",
+                            "name": "scala-library",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-sources.jar"
+                        },
+                        {
+                            "name": "scala-library",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.10/scala-library-2.13.10-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.reactivestreams",
-                    "name": "reactive-streams",
-                    "version": "1.0.3",
+                    "organization": "com.softwaremill.sttp.model",
+                    "name": "core_3",
+                    "version": "1.6.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "reactive-streams",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                            "name": "core_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_3/1.6.0/core_3-1.6.0.jar"
                         },
                         {
-                            "name": "reactive-streams",
+                            "name": "core_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_3/1.6.0/core_3-1.6.0-sources.jar"
+                        },
+                        {
+                            "name": "core_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/model/core_3/1.6.0/core_3-1.6.0-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "com.typesafe.netty",
-                    "name": "netty-reactive-streams",
-                    "version": "2.0.4",
+                    "organization": "com.softwaremill.sttp.shared",
+                    "name": "core_3",
+                    "version": "1.3.16",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "netty-reactive-streams",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar"
+                            "name": "core_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_3/1.3.16/core_3-1.3.16.jar"
                         },
                         {
-                            "name": "netty-reactive-streams",
+                            "name": "core_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_3/1.3.16/core_3-1.3.16-sources.jar"
+                        },
+                        {
+                            "name": "core_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/core_3/1.3.16/core_3-1.3.16-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "org.slf4j",
-                    "name": "slf4j-api",
-                    "version": "1.7.30",
+                    "organization": "com.softwaremill.sttp.shared",
+                    "name": "ws_3",
+                    "version": "1.3.16",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "slf4j-api",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+                            "name": "ws_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_3/1.3.16/ws_3-1.3.16.jar"
                         },
                         {
-                            "name": "slf4j-api",
+                            "name": "ws_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_3/1.3.16/ws_3-1.3.16-sources.jar"
+                        },
+                        {
+                            "name": "ws_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/shared/ws_3/1.3.16/ws_3-1.3.16-javadoc.jar"
                         }
                     ]
                 },
                 {
-                    "organization": "com.sun.activation",
-                    "name": "jakarta.activation",
-                    "version": "1.2.2",
+                    "organization": "com.softwaremill.sttp.client3",
+                    "name": "async-http-client-backend_3",
+                    "version": "3.9.0",
                     "configurations": "default",
                     "artifacts": [
                         {
-                            "name": "jakarta.activation",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar"
+                            "name": "async-http-client-backend_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/async-http-client-backend_3/3.9.0/async-http-client-backend_3-3.9.0.jar"
                         },
                         {
-                            "name": "jakarta.activation",
+                            "name": "async-http-client-backend_3",
                             "classifier": "sources",
-                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2-sources.jar"
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/async-http-client-backend_3/3.9.0/async-http-client-backend_3-3.9.0-sources.jar"
+                        },
+                        {
+                            "name": "async-http-client-backend_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/softwaremill/sttp/client3/async-http-client-backend_3/3.9.0/async-http-client-backend_3-3.9.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-kernel_3",
+                    "version": "3.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-kernel_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.2/cats-effect-kernel_3-3.5.2.jar"
+                        },
+                        {
+                            "name": "cats-effect-kernel_3",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.2/cats-effect-kernel_3-3.5.2-sources.jar"
+                        },
+                        {
+                            "name": "cats-effect-kernel_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-kernel_3/3.5.2/cats-effect-kernel_3-3.5.2-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-effect-std_3",
+                    "version": "3.5.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-effect-std_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.2/cats-effect-std_3-3.5.2.jar"
+                        },
+                        {
+                            "name": "cats-effect-std_3",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.2/cats-effect-std_3-3.5.2-sources.jar"
+                        },
+                        {
+                            "name": "cats-effect-std_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-effect-std_3/3.5.2/cats-effect-std_3-3.5.2-javadoc.jar"
                         }
                     ]
                 },
@@ -915,6 +653,473 @@
                             "name": "cats-kernel_3",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.9.0/cats-kernel_3-2.9.0-sources.jar"
+                        },
+                        {
+                            "name": "cats-kernel_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_3/2.9.0/cats-kernel_3-2.9.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-jawn_3",
+                    "version": "0.14.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-jawn_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6.jar"
+                        },
+                        {
+                            "name": "circe-jawn_3",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-jawn_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-jawn_3/0.14.6/circe-jawn_3-0.14.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-core_3",
+                    "version": "0.14.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-core_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6.jar"
+                        },
+                        {
+                            "name": "circe-core_3",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-core_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-core_3/0.14.6/circe-core_3-0.14.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-base",
+                    "version": "20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-base",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/20/javafx-base-20.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/20/javafx-base-20-sources.jar"
+                        },
+                        {
+                            "name": "javafx-base",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-base/20/javafx-base-20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-controls",
+                    "version": "20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-controls",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/20/javafx-controls-20.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/20/javafx-controls-20-sources.jar"
+                        },
+                        {
+                            "name": "javafx-controls",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-controls/20/javafx-controls-20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-fxml",
+                    "version": "20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-fxml",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/20/javafx-fxml-20.jar"
+                        },
+                        {
+                            "name": "javafx-fxml",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/20/javafx-fxml-20-sources.jar"
+                        },
+                        {
+                            "name": "javafx-fxml",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-fxml/20/javafx-fxml-20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-graphics",
+                    "version": "20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-graphics",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/20/javafx-graphics-20.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/20/javafx-graphics-20-sources.jar"
+                        },
+                        {
+                            "name": "javafx-graphics",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-graphics/20/javafx-graphics-20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-media",
+                    "version": "20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-media",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/20/javafx-media-20.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/20/javafx-media-20-sources.jar"
+                        },
+                        {
+                            "name": "javafx-media",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-media/20/javafx-media-20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-swing",
+                    "version": "20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-swing",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/20/javafx-swing-20.jar"
+                        },
+                        {
+                            "name": "javafx-swing",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/20/javafx-swing-20-sources.jar"
+                        },
+                        {
+                            "name": "javafx-swing",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-swing/20/javafx-swing-20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.openjfx",
+                    "name": "javafx-web",
+                    "version": "20",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "javafx-web",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/20/javafx-web-20.jar"
+                        },
+                        {
+                            "name": "javafx-web",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/20/javafx-web-20-sources.jar"
+                        },
+                        {
+                            "name": "javafx-web",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/openjfx/javafx-web/20/javafx-web-20-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.asynchttpclient",
+                    "name": "async-http-client",
+                    "version": "2.12.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "async-http-client",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3.jar"
+                        },
+                        {
+                            "name": "async-http-client",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3-sources.jar"
+                        },
+                        {
+                            "name": "async-http-client",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client/2.12.3/async-http-client-2.12.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "jawn-parser_3",
+                    "version": "1.4.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jawn-parser_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.4.0/jawn-parser_3-1.4.0.jar"
+                        },
+                        {
+                            "name": "jawn-parser_3",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.4.0/jawn-parser_3-1.4.0-sources.jar"
+                        },
+                        {
+                            "name": "jawn-parser_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/typelevel/jawn-parser_3/1.4.0/jawn-parser_3-1.4.0-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.circe",
+                    "name": "circe-numbers_3",
+                    "version": "0.14.6",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "circe-numbers_3",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6.jar"
+                        },
+                        {
+                            "name": "circe-numbers_3",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6-sources.jar"
+                        },
+                        {
+                            "name": "circe-numbers_3",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/circe/circe-numbers_3/0.14.6/circe-numbers_3-0.14.6-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.asynchttpclient",
+                    "name": "async-http-client-netty-utils",
+                    "version": "2.12.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "async-http-client-netty-utils",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3.jar"
+                        },
+                        {
+                            "name": "async-http-client-netty-utils",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3-sources.jar"
+                        },
+                        {
+                            "name": "async-http-client-netty-utils",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/asynchttpclient/async-http-client-netty-utils/2.12.3/async-http-client-netty-utils-2.12.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-http",
+                    "version": "4.1.60.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-http",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec-http",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-http/4.1.60.Final/netty-codec-http-4.1.60.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler",
+                    "version": "4.1.60.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-handler",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler/4.1.60.Final/netty-handler-4.1.60.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-codec-socks",
+                    "version": "4.1.60.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-codec-socks",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec-socks",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec-socks/4.1.60.Final/netty-codec-socks-4.1.60.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "io.netty",
+                    "name": "netty-handler-proxy",
+                    "version": "4.1.60.Final",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-handler-proxy",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-handler-proxy",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-handler-proxy/4.1.60.Final/netty-handler-proxy-4.1.60.Final-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.reactivestreams",
+                    "name": "reactive-streams",
+                    "version": "1.0.3",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "reactive-streams",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-sources.jar"
+                        },
+                        {
+                            "name": "reactive-streams",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/reactivestreams/reactive-streams/1.0.3/reactive-streams-1.0.3-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.typesafe.netty",
+                    "name": "netty-reactive-streams",
+                    "version": "2.0.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "netty-reactive-streams",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4.jar"
+                        },
+                        {
+                            "name": "netty-reactive-streams",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4-sources.jar"
+                        },
+                        {
+                            "name": "netty-reactive-streams",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/typesafe/netty/netty-reactive-streams/2.0.4/netty-reactive-streams-2.0.4-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.slf4j",
+                    "name": "slf4j-api",
+                    "version": "1.7.30",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "slf4j-api",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-sources.jar"
+                        },
+                        {
+                            "name": "slf4j-api",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30-javadoc.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.sun.activation",
+                    "name": "jakarta.activation",
+                    "version": "1.2.2",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "jakarta.activation",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2.jar"
+                        },
+                        {
+                            "name": "jakarta.activation",
+                            "classifier": "sources",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2-sources.jar"
+                        },
+                        {
+                            "name": "jakarta.activation",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/sun/activation/jakarta.activation/1.2.2/jakarta.activation-1.2.2-javadoc.jar"
                         }
                     ]
                 },
@@ -932,6 +1137,11 @@
                             "name": "netty-buffer",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-buffer",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-buffer/4.1.60.Final/netty-buffer-4.1.60.Final-javadoc.jar"
                         }
                     ]
                 },
@@ -949,6 +1159,11 @@
                             "name": "netty-common",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.60.Final/netty-common-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-common",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-common/4.1.60.Final/netty-common-4.1.60.Final-javadoc.jar"
                         }
                     ]
                 },
@@ -966,6 +1181,11 @@
                             "name": "netty-transport",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.60.Final/netty-transport-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-transport",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-transport/4.1.60.Final/netty-transport-4.1.60.Final-javadoc.jar"
                         }
                     ]
                 },
@@ -983,6 +1203,11 @@
                             "name": "netty-codec",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.60.Final/netty-codec-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-codec",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-codec/4.1.60.Final/netty-codec-4.1.60.Final-javadoc.jar"
                         }
                     ]
                 },
@@ -1000,6 +1225,11 @@
                             "name": "netty-resolver",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.60.Final/netty-resolver-4.1.60.Final-sources.jar"
+                        },
+                        {
+                            "name": "netty-resolver",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/io/netty/netty-resolver/4.1.60.Final/netty-resolver-4.1.60.Final-javadoc.jar"
                         }
                     ]
                 }

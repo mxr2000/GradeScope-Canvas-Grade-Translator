@@ -28,7 +28,7 @@ object Util {
       name: String
   )
 
-  def parseCreatedAt(created_at: String): LocalDateTime = {
+  private def parseCreatedAt(created_at: String): LocalDateTime = {
     val formatter =
       DateTimeFormatter.ofPattern("yyyy-MM-dd'T'HH:mm:ss.SSSSSSXXX")
     val offsetDateTime = OffsetDateTime.parse(created_at, formatter)
@@ -66,5 +66,11 @@ object Util {
       )
       .maxByOption(_.created_at)
   }
+
+  enum ActivationResult(name: String):
+    case Activated(name: String, item: SubmissionItem)
+        extends ActivationResult(name)
+    case NoItemFound(name: String) extends ActivationResult(name)
+    case Error(name: String, error: String) extends ActivationResult(name)
 
 }

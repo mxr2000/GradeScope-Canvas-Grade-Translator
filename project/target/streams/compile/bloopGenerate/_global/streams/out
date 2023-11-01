@@ -1,4 +1,4 @@
-[debug] [gradetranslator-build] Classpath dependencies List()
-[debug] [gradetranslator-build] Dependencies from configurations List()
-[debug] Bloop wrote the configuration of project 'gradetranslator-build' to '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.bloop/gradetranslator-build.json'
-[success] Generated .bloop/gradetranslator-build.json
+[0m[[0m[0mdebug[0m] [0m[0m[gradetranslator-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[gradetranslator-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'gradetranslator-build' to '/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project/.bloop/gradetranslator-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/gradetranslator-build.json[0m

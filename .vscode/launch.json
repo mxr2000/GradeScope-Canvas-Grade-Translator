@@ -5,6 +5,14 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "Launch Settungs Dialog",
+            "type": "scala",
+            "request": "launch",
+            "mainClass": "gui.SettingsDialogApp",
+            "args": [],
+            "jvmOptions": []
+        },
+        {
             "name": "Launch Cmd",
             "type": "scala",
             "request": "launch",
@@ -16,7 +24,7 @@
             "name": "Launch Gui",
             "type": "scala",
             "request": "launch",
-            "mainClass": "ScalaFXHelloWorld",
+            "mainClass": "Gui",
             "args": [],
             "jvmOptions": []
         }

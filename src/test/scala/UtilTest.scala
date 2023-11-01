@@ -1,3 +1,5 @@
+import model.Util
+
 class UtilTest extends munit.FunSuite {
   test("json parse") {
     val json = """{

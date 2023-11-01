@@ -1,23 +1,26 @@
 package gui
 
-import model._
-import scalafx.beans.property._
-import scalafx.scene.control._
-import scalafx.collections._
+import javafx.collections.ObservableList
+import model.*
+import scalafx.beans.property.*
+import scalafx.scene.control.{cell, *}
+import scalafx.collections.*
 import scalafx.beans.binding.Bindings
-import scalafx.scene.layout._
+import scalafx.scene.layout.*
 import scalafx.geometry.Insets
-import scalafx.scene.text.Text
+import scalafx.scene.text.{Text, TextAlignment}
 import scalafx.scene.AccessibleRole.CheckBox
 import scalafx.beans.property.ObjectProperty
 import javafx.scene.control as jfxsc
 import scalafx.collections.transformation.FilteredBuffer
 import scalafx.scene.shape.Rectangle
 import scalafx.scene.paint.Color
-import scalafx.beans.binding._
-import javafx.{collections => jfxc, event => jfxe, scene => jfxs, util => jfxu}
+import scalafx.beans.binding.*
+import javafx.{collections as jfxc, event as jfxe, scene as jfxs, util as jfxu}
+
 import java.net.URI
 import scalafx.geometry.Pos
+
 import java.time.LocalDateTime
 import java.time.ZoneOffset
 import scalafx.scene.layout.HBox
@@ -28,7 +31,8 @@ case class SubmissionRow(
     cs: Option[CanvasSubmission],
     graded: Option[Boolean],
     translated: Option[Boolean],
-    status: Option[SubmissionStatus]
+    status: Option[SubmissionStatus],
+    manualScore: Option[String]
 ) {
   def nameProperty = StringProperty(gs.name)
   def scoreProperty = StringProperty(gs.score)
@@ -38,6 +42,8 @@ case class SubmissionRow(
   def translatedProperty = ObjectProperty[Option[Boolean]](translated)
   def gradedProperty = ObjectProperty[Option[Boolean]](graded)
   def statusProperty = ObjectProperty[Option[SubmissionStatus]](status)
+
+  def manualScoreProperty = ObjectProperty[Option[String]](manualScore)
 }
 
 enum SortStrategy:
@@ -67,7 +73,7 @@ final case class SubmissionTable(
 
   val sortTog = new ToggleGroup
 
-  val translatedGroup = new VBox {
+  val translatedGroup: VBox = new VBox {
     children = Seq(
       new CheckBox {
         text = "Show Translated"
@@ -82,7 +88,7 @@ final case class SubmissionTable(
     spacing = 10
   }
 
-  val gradedGroup = new VBox {
+  val gradedGroup: VBox = new VBox {
     children = Seq(
       new CheckBox {
         text = "Show Graded"
@@ -97,7 +103,7 @@ final case class SubmissionTable(
     spacing = 10
   }
 
-  val statusGroup = new VBox {
+  private val statusGroup = new VBox {
     children = Seq(
       new CheckBox {
         text = "Post Success"
@@ -132,7 +138,7 @@ final case class SubmissionTable(
     spacing = 10
   }
 
-  val sortGroups = new VBox {
+  val sortGroups: VBox = new VBox {
     children = Seq(
       new RadioButton {
         text = "time"
@@ -157,36 +163,45 @@ final case class SubmissionTable(
     spacing = 10
   }
 
-  def filterGradedRow(s: SubmissionRow) =
-    showGradedChecked.value && s.graded == Some(true) ||
-      showNotGradedChecked.value && s.graded != Some(true)
+  private def filterGradedRow(s: SubmissionRow) =
+    showGradedChecked.value && s.graded.contains(true) ||
+      showNotGradedChecked.value && !s.graded.contains(true)
 
-  def filterTranslatedRow(s: SubmissionRow) =
-    showTranslatedChecked.value && s.translated == Some(true) ||
-      showNotTranslatedChecked.value && s.translated != Some(true)
+  private def filterTranslatedRow(s: SubmissionRow) =
+    showTranslatedChecked.value && s.translated.contains(true) ||
+      showNotTranslatedChecked.value && !s.translated.contains(true)
 
-  def filterStatusRow(s: SubmissionRow) =
-    true
+  private def filterStatusRow(s: SubmissionRow) =
+    showSubmissionTimeOutChecked.value && s.status.contains(
+      SubmissionStatus.SubmissionTimeOut
+    ) ||
+      showSubmissionTimeDoesNotMatchChecked.value && s.status.contains(
+        SubmissionStatus.SubmissionDoesNotMatch
+      ) ||
+      showNoSubmissionOnCanvasChecked.value && s.status.contains(
+        SubmissionStatus.SubmissionDoesNotSubmitOnCanvas
+      ) ||
+      showPostFailedChecked.value && s.status.contains(
+        SubmissionStatus.SubmissionFailed
+      ) ||
+      showPostSuccessChecked.value && s.status.contains(
+        SubmissionStatus.SubmissionSuccess
+      ) ||
+      showOtherStatusChecked.value && s.status.isEmpty
 
-  val bindings =
+  val bindings: ObjectBinding[ObservableList[SubmissionRow]] =
     Bindings.createObjectBinding[jfxc.ObservableList[SubmissionRow]](
       () => {
         val temp = submissionRows
           .filter { filterGradedRow }
           .filter { filterTranslatedRow }
           .filter { filterStatusRow }
-          .sortBy { s =>
-            (
-              sortByNameSelected.value,
-              sortByScoreSelected.value
-            ) match
-              case (true, _) => s.nameProperty.value
-              case (_, true) => s.scoreProperty.value
-              case _         => s.nameProperty.value
-          }
+
         if sortByTimeSelected.value
         then temp.sortBy { _.timeProperty.value }
-        else temp
+        else if sortByScoreSelected.value
+        then temp.sortBy { _.scoreProperty.value.toFloatOption.getOrElse(0f) }
+        else temp.sortBy { _.nameProperty.value }
       },
       submissionRows,
       showGradedChecked,
@@ -205,8 +220,8 @@ final case class SubmissionTable(
       showOtherStatusChecked
     )
 
-  val tableView = new TableView[SubmissionRow] {
-    vgrow = Priority.ALWAYS
+  val tableView: TableView[SubmissionRow] = new TableView[SubmissionRow] {
+    vgrow = Priority.Always
     items <== bindings
 
     columns ++= List(
@@ -230,7 +245,10 @@ final case class SubmissionTable(
         cellValueFactory = _.value.gradeScopeLinkProperty
         prefWidth = 100
         cellFactory = { (cell, link) =>
-          cell.graphic = Hyperlink(s"https://canvas.its.virginia.edu${link}")
+          cell.graphic = new Hyperlink {
+            text = "link"
+            onAction = _ => openWebpage(s"https://www.gradescope.com${link}")
+          }
         }
       },
       new TableColumn[SubmissionRow, Option[Boolean]] {
@@ -246,7 +264,7 @@ final case class SubmissionTable(
               case Some(true)  => Color.Green
               case Some(false) => Color.Red
           }
-          cell.alignment = Pos.CENTER
+          cell.alignment = Pos.Center
         }
       },
       new TableColumn[SubmissionRow, Option[Boolean]] {
@@ -255,20 +273,76 @@ final case class SubmissionTable(
         prefWidth = 100
         cellFactory = { (cell, v) =>
           cell.graphic = new Rectangle {
-            width = 10
-            height = 10
+            width = 20
+            height = 20
             fill = v match
-              case None        => Color.Gray
+              case None        => Color.White
               case Some(true)  => Color.Green
-              case Some(false) => Color.Red
+              case Some(false) => Color.Gray
           }
-          cell.alignment = Pos.CENTER
+          cell.alignment = Pos.Center
+
+        }
+      },
+      new TableColumn[SubmissionRow, Option[String]] {
+        text = "Manual Score"
+        cellValueFactory = _.value.manualScoreProperty
+        prefWidth = 100
+        cellFactory = { (cell, v) =>
+          cell.graphic = new Text {
+            text = v.getOrElse("")
+          }
+          cell.alignment = Pos.Center
         }
       },
       new TableColumn[SubmissionRow, Option[SubmissionStatus]] {
         text = "Status"
         cellValueFactory = _.value.statusProperty
-        prefWidth = 100
+        prefWidth = 150
+        cellFactory = { (cell, status) =>
+          cell.graphic = new StackPane {
+            children = Seq(
+              new Rectangle {
+                width = 80
+                height = 20
+                arcWidth = 2
+                arcHeight = 2
+                fill = status match
+                  case None => Color.Gray
+                  case Some(s) =>
+                    s match
+                      case SubmissionStatus.SubmissionSuccess    => Color.Green
+                      case SubmissionStatus.SubmissionTimeOut(_) => Color.Yellow
+                      case SubmissionStatus.SubmissionFailed(_)  => Color.Red
+                      case SubmissionStatus.SubmissionDoesNotMatch(_, _) =>
+                        Color.Orange
+                      case SubmissionStatus.SubmissionMultipleTimes(_, _) =>
+                        Color.LightGreen
+                      case SubmissionStatus.SubmissionDoesNotSubmitOnCanvas =>
+                        Color.Brown
+              },
+              new Text {
+                style = "-fx-font: 12 arial;"
+                textAlignment = TextAlignment.Center
+                text = status match
+                  case None => "None"
+                  case Some(value) =>
+                    value match
+                      case SubmissionStatus.SubmissionSuccess => "Success"
+                      case SubmissionStatus.SubmissionFailed(err) =>
+                        s"Post Failed($err)"
+                      case SubmissionStatus.SubmissionTimeOut(duration) =>
+                        s"Time out($duration)"
+                      case SubmissionStatus.SubmissionDoesNotMatch(_, _) =>
+                        s"Does not match"
+                      case SubmissionStatus.SubmissionDoesNotSubmitOnCanvas =>
+                        s"Not on Canvas"
+                      case SubmissionStatus.SubmissionMultipleTimes(_, _) =>
+                        s"Multiple times"
+              }
+            )
+          }
+        }
       },
       new TableColumn[SubmissionRow, String] {
         text = "Canvas Link"
@@ -277,8 +351,7 @@ final case class SubmissionTable(
         cellFactory = { (cell, link) =>
           cell.graphic = new Hyperlink {
             text = "link"
-            onAction =
-              (_) => openWebpage(s"https://canvas.its.virginia.edu${link}")
+            onAction = _ => openWebpage(s"https://canvas.its.virginia.edu$link")
           }
         }
       }
@@ -294,8 +367,9 @@ final case class SubmissionTable(
     }
   }
 
-  val accordion = new Accordion {
-    panes = Seq(
+  private val accordion = new VBox() {
+    spacing = 10
+    children = Seq(
       new TitledPane {
         text = "Status"
         content = statusGroup
@@ -316,13 +390,13 @@ final case class SubmissionTable(
 
   }
 
-  val view = new HBox {
+  val view: HBox = new HBox {
     children = Seq(
       accordion,
       tableView
     )
-    hgrow = Priority.ALWAYS
-    vgrow = Priority.ALWAYS
+    hgrow = Priority.Always
+    vgrow = Priority.Always
     spacing = 10
   }
 }

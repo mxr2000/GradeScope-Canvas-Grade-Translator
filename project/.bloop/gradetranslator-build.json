@@ -212,7 +212,7 @@
         "platform": {
             "name": "jvm",
             "config": {
-                "home": "/Users/mxr/Library/Java/JavaVirtualMachines/corretto-17.0.6/Contents/Home",
+                "home": "/opt/homebrew/Cellar/openjdk/21/libexec/openjdk.jdk/Contents/Home",
                 "options": [
                     "-Duser.dir=/Users/mxr/Documents/src/scala/GradeTranslator/GradeTranslator/project"
                 ]
@@ -237,6 +237,11 @@
                             "name": "sbt-bloop",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.11/sbt-bloop_2.12_1.0-1.5.11-sources.jar"
+                        },
+                        {
+                            "name": "sbt-bloop",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/sbt-bloop_2.12_1.0/1.5.11/sbt-bloop_2.12_1.0-1.5.11-javadoc.jar"
                         }
                     ]
                 },
@@ -254,6 +259,11 @@
                             "name": "bloop-config_2.12",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5-sources.jar"
+                        },
+                        {
+                            "name": "bloop-config_2.12",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/ch/epfl/scala/bloop-config_2.12/1.5.5/bloop-config_2.12-1.5.5-javadoc.jar"
                         }
                     ]
                 },
@@ -271,6 +281,11 @@
                             "name": "jsoniter-scala-core_2.12",
                             "classifier": "sources",
                             "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0-sources.jar"
+                        },
+                        {
+                            "name": "jsoniter-scala-core_2.12",
+                            "classifier": "javadoc",
+                            "path": "/Users/mxr/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/com/github/plokhotnyuk/jsoniter-scala/jsoniter-scala-core_2.12/2.4.0/jsoniter-scala-core_2.12-2.4.0-javadoc.jar"
                         }
                     ]
                 },

@@ -8,6 +8,7 @@ libraryDependencies ++= List(
   "org.jsoup" % "jsoup" % "1.14.3",
   "org.scala-lang.modules" %% "scala-parallel-collections" % "1.0.4",
   "org.typelevel" %% "cats-effect" % "3.5.2",
+  "org.typelevel" %% "cats-core" % "2.9.0",
   "io.circe" %% "circe-parser" % "0.14.6",
   "io.circe" %% "circe-generic" % "0.14.6",
   "org.scalameta" %% "munit" % "0.7.29" % Test,
