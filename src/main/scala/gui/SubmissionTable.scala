@@ -171,23 +171,16 @@ final case class SubmissionTable(
     showTranslatedChecked.value && s.translated.contains(true) ||
       showNotTranslatedChecked.value && !s.translated.contains(true)
 
-  private def filterStatusRow(s: SubmissionRow) =
-    showSubmissionTimeOutChecked.value && s.status.contains(
-      SubmissionStatus.SubmissionTimeOut
-    ) ||
-      showSubmissionTimeDoesNotMatchChecked.value && s.status.contains(
-        SubmissionStatus.SubmissionDoesNotMatch
-      ) ||
-      showNoSubmissionOnCanvasChecked.value && s.status.contains(
-        SubmissionStatus.SubmissionDoesNotSubmitOnCanvas
-      ) ||
-      showPostFailedChecked.value && s.status.contains(
-        SubmissionStatus.SubmissionFailed
-      ) ||
-      showPostSuccessChecked.value && s.status.contains(
-        SubmissionStatus.SubmissionSuccess
-      ) ||
-      showOtherStatusChecked.value && s.status.isEmpty
+  private def filterStatusRow(s: SubmissionRow) = s.status match {
+    case None => showOtherStatusChecked.value
+    case Some(status) => status match
+      case SubmissionStatus.SubmissionTimeOut(_) => showSubmissionTimeOutChecked.value
+      case SubmissionStatus.SubmissionDoesNotMatch(_, _) => showSubmissionTimeDoesNotMatchChecked.value
+      case SubmissionStatus.SubmissionDoesNotSubmitOnCanvas => showNoSubmissionOnCanvasChecked.value
+      case SubmissionStatus.SubmissionFailed(_) => showPostFailedChecked.value
+      case SubmissionStatus.SubmissionSuccess => showPostSuccessChecked.value
+      case SubmissionStatus.SubmissionMultipleTimes(_, _) => true
+  }
 
   val bindings: ObjectBinding[ObservableList[SubmissionRow]] =
     Bindings.createObjectBinding[jfxc.ObservableList[SubmissionRow]](
@@ -247,7 +240,7 @@ final case class SubmissionTable(
         cellFactory = { (cell, link) =>
           cell.graphic = new Hyperlink {
             text = "link"
-            onAction = _ => openWebpage(s"https://www.gradescope.com${link}")
+            onAction = _ => openWebpage(s"https://www.gradescope.com$link")
           }
         }
       },

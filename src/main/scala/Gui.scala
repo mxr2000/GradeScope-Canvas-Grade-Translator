@@ -45,35 +45,38 @@ object Gui extends JFXApp3 {
             oldRow: SubmissionRow,
             status: SubmissionStatus
         ): SubmissionRow =
-          canvas
-            .postQuizGrade(
-              link,
-              grade,
-              comment
-            )
-            .fold(
-              err =>
-                println(s"${grade} ${err}")
-                oldRow
-                  .copy(
-                    translated = Some(false),
-                    status = Some(SubmissionStatus.SubmissionFailed(err))
-                  ),
-              _ =>
-                println(s"${oldRow.gs.name}:${grade}")
-                oldRow
-                  .copy(
-                    translated = Some(true),
-                    status = Some(status)
-                  )
-            )
+          val r = for {
+            r <- canvas
+              .postQuizGrade(
+                link,
+                grade,
+                comment
+              )
+          } yield r
+          r.fold(
+            err =>
+              println(s"${grade} ${err}")
+              oldRow
+                .copy(
+                  translated = Some(false),
+                  status = Some(SubmissionStatus.SubmissionFailed(err))
+                )
+            ,
+            _ =>
+              println(s"${oldRow.gs.name}:${grade} ${status}")
+              oldRow
+                .copy(
+                  translated = Some(true),
+                  status = Some(status)
+                )
+          )
 
         import cats.implicits._
         import scala.concurrent.ExecutionContext
 
-        implicit val customExecutionContext: ExecutionContext =
+        val customExecutionContext: ExecutionContext =
           ExecutionContext.fromExecutor(
-            java.util.concurrent.Executors.newFixedThreadPool(5)
+            java.util.concurrent.Executors.newFixedThreadPool(1)
           )
 
         val futureTasks = List
@@ -84,18 +87,23 @@ object Gui extends JFXApp3 {
             val newRow = oldRow.cs match
               case None =>
                 Future {
-                  oldRow.copy(status =
-                    Some(SubmissionStatus.SubmissionDoesNotSubmitOnCanvas),
+                  oldRow.copy(
+                    status =
+                      Some(SubmissionStatus.SubmissionDoesNotSubmitOnCanvas),
                     translated = Some(false)
                   )
                 }
               case Some(cs) =>
                 val gs = oldRow.gs
-                val score = if dialogResult.gradeManual then oldRow.manualScore.getOrElse("0.0") else gs.score
+                val score =
+                  if dialogResult.gradeManual then
+                    oldRow.manualScore.getOrElse("0.0")
+                  else gs.score
                 canvas
                   .getSubmissionStatus(cs.link, gs.time)
                   .map {
-                    case status @ SubmissionStatus.SubmissionTimeOut(_) =>
+                    case status @ SubmissionStatus.SubmissionTimeOut(time) =>
+                      println(s"timeout $time")
                       postQuizGrade(
                         cs.link,
                         "0.0",
@@ -151,11 +159,11 @@ object Gui extends JFXApp3 {
           }
           .sequence
 
-        futureTasks.onComplete {
+        futureTasks.onComplete({
           case scala.util.Success(_) =>
             println("All tasks completed successfully")
           case scala.util.Failure(ex) => println(s"An error occurred: $ex")
-        }
+        })(customExecutionContext)
       }
     )
 
@@ -252,7 +260,8 @@ object Gui extends JFXApp3 {
                 SubmissionRow(
                   gs,
                   submissionList.get(name),
-                  if manualNameSet.contains(name) then Some(true) else Some(false),
+                  if manualNameSet.contains(name) then Some(true)
+                  else Some(false),
                   None,
                   None,
                   manualMap.get(name)

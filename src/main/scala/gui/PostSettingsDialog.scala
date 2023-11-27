@@ -61,7 +61,7 @@ object PostSettingsDialog {
           noSubmissionComment = noSubmissionComment.value,
           timeOutComment = timeOutComment.value,
           timeDoesNotMatchComment = timeDoesNotMatchComment.value,
-          gradeManual = true
+          gradeManual = false
         )
       else null
     dialog.showAndWait()

@@ -13,7 +13,8 @@ case class CanvasSettings(
     quizId: String,
     questionId: String,
     cookies: String,
-    token: String
+    token: String,
+    timeout: Int
 )
 
 case class GradeScopeSettings(
@@ -82,7 +83,7 @@ object SettingsDao {
       val cs = s.canvasSettings
       val gs = s.gradeScopeSettings
       (
-        Canvas(cs.courseId, cs.quizId, cs.questionId, cs.cookies, cs.token),
+        Canvas(cs.courseId, cs.quizId, cs.questionId, cs.cookies, cs.token, cs.timeout),
         GradeScope(gs.courseId, gs.assignmentId, gs.questionId, gs.cookies, gs.token)
       )
     }

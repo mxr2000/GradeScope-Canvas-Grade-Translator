@@ -34,7 +34,8 @@ case class Canvas(
     quizId: String,
     questionId: String,
     cookies: String,
-    token: String
+    token: String,
+    timeOut: Int
 ):
   def postQuizGrade(
       link: String,
@@ -47,6 +48,8 @@ case class Canvas(
     val submissionId = matchResult.group(3)
     val url =
       s"https://canvas.its.virginia.edu/courses/$courseId/quizzes/$quizId/submissions/$submissionId"
+
+    val dummyQuestionId = "2196510"
     val submissionData = Map(
       "_method" -> "put",
       "authenticity_token" -> token,
@@ -56,6 +59,9 @@ case class Canvas(
       s"question_score_${questionId}" -> grade,
       s"question_score_${questionId}_visible" -> grade,
       s"question_comment_${questionId}" -> comment,
+      s"question_score_${dummyQuestionId}" -> "1",
+      s"question_score_$dummyQuestionId}_visible" -> "1",
+      s"question_comment_${dummyQuestionId}" -> "",
       "fudge_points" -> "0.0"
     )
 
@@ -83,10 +89,11 @@ case class Canvas(
       .post()
 
     Try(post) match
-      case Failure(exception) => Left(exception.getMessage())
+      case Failure(exception) => Left(exception.getMessage)
       case Success(doc) =>
         val resp = doc.connection().response()
         if resp.statusCode / 100 != 2 then
+          println(s"${resp.statusMessage()} - ${resp.statusCode()}")
           Left(s"${resp.statusCode()} ${resp.statusMessage()}")
         else Right("")
   }
@@ -111,7 +118,7 @@ case class Canvas(
       "Sec-Fetch-Mode" -> "cors",
       "Sec-Fetch-Site" -> "same-origin",
       "User-Agent" -> "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
-      "X-Csrf-Token" -> "Y+Qj+KJF7Huybp/nQnfGg/tSzTWWU6F0z6blMNkVqkpVh3uCkHOCVMQt6q0sHqf1jB+eGu4llz/789B8rnzlPQ=="
+      "X-Csrf-Token" -> token
     )
 
     val uri =
@@ -159,6 +166,8 @@ case class Canvas(
     }
   }
 
+  private val asyncBackend = AsyncHttpClientFutureBackend()
+
   def getSubmissionStatus(
       link: String,
       gradeScopeTime: LocalDateTime
@@ -179,7 +188,7 @@ case class Canvas(
       "Sec-Fetch-Mode" -> "navigate",
       "Sec-Fetch-Site" -> "none",
       "User-Agent" -> "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/117.0.0.0 Safari/537.36",
-      "X-Csrf-Token" -> "Y+Qj+KJF7Huybp/nQnfGg/tSzTWWU6F0z6blMNkVqkpVh3uCkHOCVMQt6q0sHqf1jB+eGu4llz/789B8rnzlPQ=="
+      "X-Csrf-Token" -> token
     )
 
     def extractNumber(input: String): Option[Int] = {
@@ -234,6 +243,7 @@ case class Canvas(
       }
     }
 
+
     def getCanvasSubmissionTime(
         link: String
     ): EitherT[Future, String, (LocalDateTime, Int)] = {
@@ -242,7 +252,7 @@ case class Canvas(
         basicRequest
           .get(uri"${url}")
           .headers(headers)
-          .send(AsyncHttpClientFutureBackend())
+          .send(asyncBackend)
           .map {
             _.body
               .flatMap { content =>
@@ -276,8 +286,10 @@ case class Canvas(
         canvasTime: LocalDateTime,
         canvasDuration: Int
     ): SubmissionStatus =
+      println(s"time ${link} ${canvasDuration}")
+
       canvasDuration match {
-        case _ if canvasDuration > 120 + 5 =>
+        case _ if canvasDuration > timeOut + 5 =>
           SubmissionStatus.SubmissionTimeOut(canvasDuration)
         case _ =>
           val minutesDiff =
@@ -296,8 +308,11 @@ case class Canvas(
             case _ => SubmissionStatus.SubmissionSuccess
           }
       }
+    val random = new Random
+    val randomMilliseconds = 200 + random.nextInt(300) // Generates a random number between 200 and 1999
 
-    println("Done sleeping!")
+    Thread.sleep(randomMilliseconds)
+
     getCanvasSubmissionTime(link).value.map {
       case Left(err) =>
         println(s"what? ${err}")

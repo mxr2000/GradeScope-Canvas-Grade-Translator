@@ -21,6 +21,7 @@ object SettingsDialog {
   val gradeScopeQuestionId = StringProperty("")
   val gradeScopeToken = StringProperty("")
   val gradeScopeCookies = StringProperty("")
+  val timeOut = StringProperty("")
 
   val grid: GridPane = new GridPane() {
     margin = Insets(10)
@@ -49,6 +50,7 @@ object SettingsDialog {
     add(Label("Canvas Cookies"), 0, 7)
     add(Label("GradeScope Token"), 0, 8)
     add(Label("GradeScope Cookies"), 0, 9)
+    add(Label("TimeOut"), 0, 10)
 
     add(
       new TextField {
@@ -134,6 +136,14 @@ object SettingsDialog {
       1,
       9
     )
+    add(
+      new TextField {
+        maxWidth = 100
+        text <==> timeOut
+      },
+      1,
+      10
+    )
   }
 
   val borderPane: BorderPane = new BorderPane {
@@ -152,6 +162,7 @@ object SettingsDialog {
       canvasQuizId.value = canvas.quizId
       canvasQuestionId.value = canvas.questionId
       canvasCourseId.value = canvas.courseId
+      timeOut.value = canvas.timeout.toString
 
       gradeScopeCourseId.value = gradeScope.courseId
       gradeScopeQuestionId.value = gradeScope.questionId
@@ -170,7 +181,8 @@ object SettingsDialog {
           canvasQuizId.value,
           canvasQuestionId.value,
           canvasCookies.value,
-          canvasToken.value
+          canvasToken.value,
+          timeOut.value.toInt
         ),
         GradeScopeSettings(
           gradeScopeCourseId.value,
