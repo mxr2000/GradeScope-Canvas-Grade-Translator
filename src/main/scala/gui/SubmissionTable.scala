@@ -65,6 +65,7 @@ final case class SubmissionTable(
   val showNoSubmissionOnGradeScopeChecked = BooleanProperty(true)
   val showNoSubmissionOnCanvasChecked = BooleanProperty(true)
   val showPostFailedChecked = BooleanProperty(true)
+  val showSubmissionMultipleTimesChecked = BooleanProperty(true)
   val showOtherStatusChecked = BooleanProperty(true)
 
   val sortByTimeSelected = BooleanProperty(true)
@@ -126,6 +127,10 @@ final case class SubmissionTable(
         selected <==> showSubmissionTimeDoesNotMatchChecked
       },
       new CheckBox {
+        text = "Submit Twice"
+        selected <==> showSubmissionMultipleTimesChecked
+      },
+      new CheckBox {
         text = "Post Failed"
         selected <==> showPostFailedChecked
       },
@@ -179,7 +184,7 @@ final case class SubmissionTable(
       case SubmissionStatus.SubmissionDoesNotSubmitOnCanvas => showNoSubmissionOnCanvasChecked.value
       case SubmissionStatus.SubmissionFailed(_) => showPostFailedChecked.value
       case SubmissionStatus.SubmissionSuccess => showPostSuccessChecked.value
-      case SubmissionStatus.SubmissionMultipleTimes(_, _) => true
+      case SubmissionStatus.SubmissionMultipleTimes(_, _) => showSubmissionTimeOutChecked.value
   }
 
   val bindings: ObjectBinding[ObservableList[SubmissionRow]] =
